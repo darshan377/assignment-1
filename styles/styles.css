@@ -150,3 +150,33 @@ body{
     font-weight: 600;
     font-size: 20px;
 }
+
+/* news styles */
+
+.news{
+    margin: 80px 0px;
+}
+.news-parts-1{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-bottom: 24px;
+
+}
+
+.news-parts-2{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+}
+
+.news-part{
+    padding: 56px 48px 32px ;
+}
+
+.news-part-title{
+    font-weight: 600;
+    font-size: 32px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
