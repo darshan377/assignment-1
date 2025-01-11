@@ -180,3 +180,58 @@ body{
     color: #0E0E0E;
     opacity: 80%;
 }
+
+/* donation styles */
+
+.donation{
+    text-align: center;
+    align-items: center;
+}
+
+.donation-containers{
+    display: flex;
+    margin: 32px 104px;
+    /* margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left:  104px;
+    margin-right: 104px; */
+}
+
+.donation-containers .donation-container1{
+    border: 5px green;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    margin-right: 24px;
+    padding: 40px;
+}
+
+.donation-containers .donation-container2{
+    border: 5px green;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    padding: 40px;
+}
+
+.donation-containers .donation-container3{
+    border: 5px green;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    margin-left: 24px;
+    padding: 40px;
+}
+
+.donation-containers .donation-container4{
+    border: 5px green;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    margin-left: 24px;
+    padding: 40px;
+}
+
+.amount{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 32px;
+}
