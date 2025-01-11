@@ -136,4 +136,17 @@ body{
 
 /* quote styles */
 
+.quote-container{
+    background-image:url('../assets/quote-bg.png') ;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    margin-bottom: 80px;
+    opacity: 120%;
+}
 
+.quote-name{
+    font-weight: 600;
+    font-size: 20px;
+}
