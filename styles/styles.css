@@ -7,12 +7,25 @@
     "wdth" 100;
 }
 
-.head-width{
+body{
     max-width: 1280px;
     margin: 0 auto;
 }
 
 /* shared styles */
+
+.sec-title{
+    font-weight:bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+.sec-descrip{
+    font-weight: 400;
+    font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
+}
  
 .btn-primary{
     font-weight: 500;
@@ -24,6 +37,7 @@
     border: none;
 }
 /* banner styles */
+
 .banner{
     display: flex;
     background-color:#C6E4D6 ;
@@ -50,3 +64,76 @@
 .pic{
     padding:80px 60px ;
 }
+
+/* vision styles */
+/* .visions{
+    justify-content: center;
+    align-items: center;
+} */
+.vision-container{
+    display: flex;
+    gap: 24px;
+    margin: 32px 32px;
+}
+
+/* .vision-descrip{
+    margin-left: 160px;
+    margin-right: 160px;
+} */
+
+.vision-container .vision-1{
+    background-color: #5490F5;
+    opacity: 80%;
+    padding: 32px 32px;
+}
+
+.vision-1 .btn-1{
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+}
+
+.vision-container .vision-2{
+    background-color: #C6E4D6;
+    padding: 32px 32px;
+}
+
+.vision-2 .btn-2{
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #09A15C;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+}
+
+.vision-container .vision-3{
+    background-color: #F7EBCF;
+    padding: 32px 32px;
+}
+
+.vision-3 .btn-3{
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #FFC239;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+}
+
+.vision-title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+/* quote styles */
+
+
